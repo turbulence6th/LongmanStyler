@@ -1,0 +1,19 @@
+{
+  "name": "Longman styler",
+  "version": "1.0",
+  "description": "Longman styler for printer",
+  "manifest_version": 2,
+  "content_scripts": [
+    {
+      "matches": ["https://www.ldoceonline.com/dictionary/*"],
+      "css": ["longmanStyler.css"],
+      "js": ["jquery.js", "longmanStyler.js"]
+    }
+  ],
+  "icons": {
+    "16": "images/icon_16.png",
+    "32": "images/icon_32.png",
+    "48": "images/icon_48.png",
+    "128": "images/icon_128.png"
+  }
+}
